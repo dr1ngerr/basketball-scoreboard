@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: rgb(31, 31, 131);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+}
+
+.points-design {
+    background-color: black;
+    font-size: 50px;
+    color: red;
+    padding: 10px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+button {
+    background-color: rgb(31, 31, 131);
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.title {
+    font-size: 30px;
+}
+
+#container-restart {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#btn-restart {
+    margin: 0 auto;
+}
