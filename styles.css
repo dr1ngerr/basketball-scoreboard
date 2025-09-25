@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Cursed Timer Ulil";
+    src: url(fonts/CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    margin: 0;
+    background: darkblue;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score {
+    width: 100px;
+    height: 70px;
+    background: black;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cursed Timer Ulil";
+}
+
+button {
+    color: #9CA3AF;
+    background: darkblue;
+    border: 1px solid #9CA3AF;
+    padding: 5px 7px;
+    font-family: "Cursed Timer Ulil";
+}
+
+p {
+    font-size: 70px;
+    color: #F43F5E;
+    text-align: center;
+}
