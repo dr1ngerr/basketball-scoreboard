@@ -2,6 +2,7 @@ let homeScore = 0
 let guestScore = 0
 let homeScoreEl = document.getElementById("home-score-el")
 let guestScoreEl = document.getElementById("guest-score-el")
+let btnReset = document.getElementById("btn-reset")
 
 function sum1PointHome() {
     homeScore += 1
@@ -33,12 +34,12 @@ function sum3PointGuest() {
     guestScoreEl.textContent = guestScore
 }
 
-function resetScores() {
+btnReset.addEventListener("click", function() {
     homeScore = 0
     guestScore = 0
     homeScoreEl.textContent = homeScore
     guestScoreEl.textContent = guestScore
-}
+})
 
 if (homeScore > guestScore) {
     homeScoreEl.style.color = '#00ff00';
